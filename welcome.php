@@ -3,15 +3,15 @@
     <h1><?php echo ">------ DONE -------->" ?></h1>
     <?php
        // Comment
-       $url       = $_POST["url"];
+       $url    = $_POST["url"];
        $format = $_POST["fileType"];
-       $app       = $_POST["app"];
-       $shared    = $_POST["shared"];
+       $app    = $_POST["app"];
+       $shared = $_POST["shared"];
        
        
-       echo $url . " ";
+       echo $url    . " ";
        echo $format . " ";
-       echo $app . " ";
+       echo $app    . " ";
        echo $shared . " ";
 
 
